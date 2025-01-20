@@ -10,7 +10,6 @@ ENDCLASS.
 CLASS zcl_main_ama IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-     out->write( 'Hello world!' ).
 
     " Declarar las variables necesarias
     DATA: lo_customer_manager TYPE REF TO zcl_customer_manager_ama,
